@@ -1069,13 +1069,13 @@ section,
 
 .about .content ul li {
   display: flex;
-  align-items: flex-start;
-  margin-top: 40px;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .about .content ul i {
   flex-shrink: 0;
-  font-size: 48px;
+  font-size: 24px;
   color: var(--accent-color);
   margin-right: 20px;
   line-height: 0;
@@ -2038,4 +2038,8 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+.first-li{
+  margin-top: 1rem!important;
 }
